@@ -8,16 +8,16 @@ const Portfolio = () => {
       <h3 className="projects-title">Projects</h3>
       <ul className="projects-grid">
         <div className="c">
-          <Link to="/portfolio/C">C++</Link>
+          <Link to="/myWebsite/portfolio/C">C++</Link>
         </div>
         <div className="react">
-          <Link to="/portfolio/ReactProjects">React.js</Link>
+          <Link to="/myWebsite/portfolio/ReactProjects">React.js</Link>
         </div>
         <div className="javascript">
-          <Link to="/portfolio/Javascript">Javascript</Link>
+          <Link to="/myWebsite/portfolio/Javascript">Javascript</Link>
         </div>
         <div className="python">
-          <Link to="/ComingSoon">Python</Link>
+          <Link to="/myWebsite/ComingSoon">Python</Link>
         </div>
       </ul>
     </div>

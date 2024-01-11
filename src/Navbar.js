@@ -30,13 +30,13 @@ const Navbar = () => {
       <div className="mid-section"></div>
       <ul className="right-section">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/myWebsite">Home</Link>
         </li>
         <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/myWebsite/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link to="/ComingSoon">Skills</Link>
+          <Link to="/myWebsite/ComingSoon">Skills</Link>
         </li>
       </ul>
     </nav>

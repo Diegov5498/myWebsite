@@ -17,13 +17,19 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/portfolio/c" element={<C />} />
-          <Route path="/portfolio/ReactProjects" element={<ReactProjects />} />
-          <Route path="/portfolio/Javascript" element={<Javascript />} />
-          <Route path="/ComingSoon" element={<Update />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/myWebsite" element={<Home />} />
+          <Route path="/myWebsite/portfolio" element={<Portfolio />} />
+          <Route path="/myWebsite/portfolio/c" element={<C />} />
+          <Route
+            path="/myWebsite/portfolio/ReactProjects"
+            element={<ReactProjects />}
+          />
+          <Route
+            path="/myWebsite/portfolio/Javascript"
+            element={<Javascript />}
+          />
+          <Route path="/myWebsite/ComingSoon" element={<Update />} />
+          <Route path="/myWebsite*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

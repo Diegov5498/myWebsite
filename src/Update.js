@@ -9,7 +9,7 @@ const Update = () => {
         This page will be added within 1 week of the last update shown at the
         bottom
       </p>
-      <Link to="/">Back to the homepage</Link>
+      <Link to="/myWebsite">Back to the homepage</Link>
     </div>
   );
 };
