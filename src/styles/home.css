@@ -1,0 +1,65 @@
+/*Styles for Homepage*/
+
+.home {
+  background-image: url("images/home-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+}
+
+.title {
+  margin-top: 6vh;
+  font-size: 6vh;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10vh;
+}
+
+.aboutMe {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90vw;
+  align-items: left;
+  color: white;
+  padding: 2vh;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20vh;
+}
+
+.buttons-container a {
+  margin: 3vh;
+  height: 15vh;
+  width: 15vh;
+  color: rgba(0, 0, 0, 0);
+  border-radius: 10vh;
+  border: solid;
+  background-color: transparent;
+}
+
+.linked-in {
+  position: relative;
+  background-image: url("images/linkedIn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.resume {
+  position: relative;
+  background-image: url("images/resume.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

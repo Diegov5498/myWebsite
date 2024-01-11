@@ -1,0 +1,47 @@
+.not-found {
+  background-image: url("images/home-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  height: 100vh;
+}
+
+.not-found h2 {
+  margin-top: 6vh;
+  font-size: 6vh;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.not-found p {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90vw;
+  align-items: left;
+  color: white;
+  padding: 2vh;
+}
+.not-found a {
+  color: white;
+  font-size: 3vh;
+  margin: 2vh;
+  padding: 6vh;
+  border-radius: 2vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1.4px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.not-found a:hover {
+  border-color: white;
+  box-shadow: 0 0 10px 0 rgba(250, 250, 250, 0.7);
+}
