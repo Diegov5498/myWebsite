@@ -20,9 +20,7 @@ const Home = () => {
         <div></div>
         <a
           className="resume"
-          href="/DiegoVResume.pdf"
-          download="DiegoVResume.pdf"
-          onClick={handleDownload}
+          href="https://docs.google.com/document/d/1T5QFiIdVOoaRgNaiverd6ZNBjuduv2QMYR_MKdlPOeA/edit?usp=sharing"
         >
           resume.pdf
         </a>
